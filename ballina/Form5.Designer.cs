@@ -247,11 +247,12 @@
             // descripcionLabel
             // 
             descripcionLabel.AutoSize = true;
+            descripcionLabel.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             descripcionLabel.Location = new System.Drawing.Point(194, 182);
             descripcionLabel.Name = "descripcionLabel";
-            descripcionLabel.Size = new System.Drawing.Size(64, 13);
+            descripcionLabel.Size = new System.Drawing.Size(61, 13);
             descripcionLabel.TabIndex = 5;
-            descripcionLabel.Text = "descripcion:";
+            descripcionLabel.Text = "descripcion";
             // 
             // descripcionTextBox
             // 
